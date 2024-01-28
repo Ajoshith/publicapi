@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 import pickle
 import getpass
+import faiss
 import os
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
